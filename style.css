@@ -99,3 +99,59 @@ a{
     font-size:1.2em;
     font-weight: 600;
 }
+@media (max-width: 991px) and (min-width: 768px){
+	h1{
+        font-size: 4em;
+        text-align: center;
+        position:relative;
+        left:10%;
+    }
+   
+	
+}
+@media (max-width: 767px){
+    body{
+        font-size:25px;
+        font-weight:500;
+    }
+	h1{
+        font-size: 3em;
+        text-align: center;
+        position:relative;
+        left:10%;
+
+    }
+    .icon{
+        height: 30px;
+        width: 30px;
+       
+    }
+    .navb{
+        position: relative;
+        left:70%;
+       
+    }
+    .intro{
+       position:relative;
+        left:45%;
+        transform: translate(-25%,-130%);
+        height: 250px;
+    }
+        
+    }
+    .intro1{
+        position:relative;
+        left:45%;
+        transform: translate(-25%,-70%); 
+        background-color: rgba(201, 160, 25, 0.87); 
+        height: 250px;
+
+    }
+    .profile{
+    
+        position:relative;
+        left:25%;
+        transform: translate(-25%,-50%);
+    }
+}
+
